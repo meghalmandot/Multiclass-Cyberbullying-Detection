@@ -123,19 +123,19 @@ The following figures provide a visual comparison of the evaluated models.
 
 #### Accuracy Comparison
 
-![Accuracy Comparison](results/figures/model_comparison_accuracy.png)
+![Accuracy Comparison](figures/model_comparison_accuracy.png)
 
 #### Macro F1 Comparison
 
-![Macro F1 Comparison](results/figures/model_comparison_f1_macro.png)
+![Macro F1 Comparison](figures/model_comparison_f1_macro.png)
 
 #### Weighted F1 Comparison
 
-![Weighted F1 Comparison](results/figures/model_comparison_f1_weighted.png)
+![Weighted F1 Comparison](figures/model_comparison_f1_weighted.png)
 
 #### Top 5 Models by Macro F1
 
-![Top 5 Models Macro F1](results/figures/top_5_models_macro_f1.png)
+![Top 5 Models Macro F1](figures/top_5_models_macro_f1.png)
 
 ## Project Structure
 
