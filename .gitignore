@@ -7,7 +7,7 @@ __pycache__/
 venv/
 env/
 
-# Sensitive files
+# Sensitive file
 .env
 *.pem
 *.key
