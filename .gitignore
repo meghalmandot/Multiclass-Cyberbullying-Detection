@@ -1,5 +1,5 @@
 
-# Python cache and temporary files
+# Python temporary files
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
@@ -7,20 +7,15 @@ __pycache__/
 venv/
 env/
 
-# Environment variables and sensitive files
+# Sensitive files
 .env
 *.pem
 *.key
 
-# Dataset files
+# Dataset directory
 data/*
-!data/README.md
 
-# Large datasets and archives
-*.parquet
-*.zip
-
-# Trained model weights and checkpoints
+# Large model weights and generated arrays
 *.pt
 *.pth
 *.h5
@@ -33,16 +28,18 @@ data/*
 *.joblib
 *.pkl
 *.pickle
+*.bin
 
-# Hugging Face training checkpoints
-**/checkpoint-*/
-
-# Model output directories
-**/bert_multiclass_output/
-**/roberta_multiclass_output/
+# Hugging Face model directories
 **/bert_multiclass_model/
 **/roberta_multiclass_model/
+**/bert_multiclass_output/
+**/roberta_multiclass_output/
+**/checkpoint-*/
 
 # GloVe files
 *glove*.txt
 *glove*.zip
+
+# Generated prediction files
+results/**/test_predictions_*.csv
