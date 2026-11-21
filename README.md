@@ -145,10 +145,6 @@ multiclass-cyberbullying-detection/
 ├── notebooks/
 │   └── EN_Multiclass1.ipynb
 │
-├── src/
-│
-├── tests/
-│
 ├── data/
 │
 ├── results/
