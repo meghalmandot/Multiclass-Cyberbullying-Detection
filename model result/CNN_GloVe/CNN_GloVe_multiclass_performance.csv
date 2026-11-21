@@ -1,0 +1,2 @@
+Model,Accuracy,Precision (Macro),Recall (Macro),F1 (Macro),ROC-AUC (Macro OvR),Precision (Weighted),Recall (Weighted),F1 (Weighted),Vocab_Size,Max_Seq,GloVe,Embedding_Trainable,LR
+CNN+glove.6B.100d (frozen),0.8418073173288605,0.8476816122869287,0.8414168497933346,0.8388303124806583,0.9722635857017096,0.8486256804748642,0.8418073173288605,0.8395401925602305,30000,120,glove.6B.100d,False,0.0001

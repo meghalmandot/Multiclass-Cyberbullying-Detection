@@ -1,0 +1,2 @@
+Model,Accuracy,Precision (Macro),Recall (Macro),F1 (Macro),ROC-AUC (Macro OvR),Precision (Weighted),Recall (Weighted),F1 (Weighted),Vocab_Size,Max_Seq,GloVe,Embedding_Trainable,LSTM_Units,LR
+BiLSTM+glove.6B.100d (frozen),0.8251389034489989,0.8364227579418483,0.8248620634125571,0.8188776968011507,0.9686569922846909,0.8374354506436513,0.8251389034489989,0.8196000368123463,30000,120,glove.6B.100d,False,128,0.0001
